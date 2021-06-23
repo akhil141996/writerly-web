@@ -1,1 +1,16 @@
+.card-title {
+  color: #083863;
+}
 
+.text {
+  color: goldenrod;
+}
+
+.card-text-text {
+  color: #083863;
+}
+.hl {
+  border: none;
+  height: 1px;
+  background: black;
+}

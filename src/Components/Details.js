@@ -1,10 +1,17 @@
 import React from "react";
 import laptop from "../assets/laptop.png";
-import Signup from "./Signup";
+import Description from "./Description";
+import Features from "./Features";
+import Contactus from "./Contactus";
+import Plans from "./Plans";
 function Details() {
   return (
     <div class="container-fluid">
-      <Signup />
+      <Description />
+      <Features />
+      <Plans />
+      <Contactus />
+
       <div class="row py-4">
         <div class="col-6">
           <img class="img-fluid wd-75" src={laptop}></img>

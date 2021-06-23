@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 
 function Signin() {
   return (
-    <div class="container-fluid">
+    <div class="container-fluid" style={{ height: "80vh" }}>
       <div class="row">
         <div class="col-md-12 py-5 text-center">
           <img class="mx-auto d-block " width="70" height="70" src={logo}></img>
