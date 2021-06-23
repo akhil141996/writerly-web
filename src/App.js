@@ -13,16 +13,14 @@ import Footer2 from "./Components/Footer2";
 import Signupdetails from "./Components/Signupdetails";
 import Features from "./Components/Features";
 import Contactus from "./Components/Contactus";
-import { Fontawesome } from "@fortawesome/react-fontawesome";
+
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <Navbar />
-
+        <Contactus />
         <Switch>
-          <Route path="/home" component={Contactus} />
-
           <Route path="/plans" component={Plans} />
         </Switch>
 

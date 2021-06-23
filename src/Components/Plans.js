@@ -11,7 +11,6 @@ function Plans() {
       excerpt: (
         <ul class="list-unstyled">
           <li>Add,edit,retrieve notes</li>
-          <br />
           <li>Add unlimited notebooks</li>
           <li>Add upto 10tags</li>
           <li>Notes stored locally</li>
