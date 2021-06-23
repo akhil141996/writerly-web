@@ -48,27 +48,6 @@ function Navbar() {
             className="collapse navbar-collapse flex-grow-0"
             id="collapseNav"
           >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <Link
-                  to="/Signupdetails"
-                  href="/"
-                  className="nav-item nav-link text-dark h6 mx-3 my-auto"
-                >
-                  Signup
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link
-                  to="/login"
-                  href="/"
-                  className="nav-item nav-link text-dark h6 mx-3 my-auto"
-                >
-                  login
-                </Link>
-              </li>
-            </ul>
-
             <button className="btn btn-warning ml-auto">download</button>
           </div>
           <button

@@ -7,11 +7,6 @@ import Plans from "./Plans";
 function Details() {
   return (
     <div class="container-fluid">
-      <Description />
-      <Features />
-      <Plans />
-      <Contactus />
-
       <div class="row py-4">
         <div class="col-6">
           <img class="img-fluid wd-75" src={laptop}></img>

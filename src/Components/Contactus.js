@@ -1,8 +1,15 @@
 import React from "react";
+import Description from "./Description";
+import Features from "./Features";
+import Plans from "./Plans";
 
 function Contactus() {
   return (
     <div class="container-fluid">
+      <Description />
+      <Features />
+      <Plans />
+
       <div class="row">
         <div class="col-md-12 py-5 text-center">
           <h1>
@@ -31,7 +38,7 @@ function Contactus() {
           </form>
         </div>
         <div class="col-12 text-center ">
-          <button class=" btn btn-warning" style={{ width: "250px" }}>
+          <button class=" btn btn-warning mb-5" style={{ width: "250px" }}>
             Submit
           </button>
           <br />

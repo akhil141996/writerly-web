@@ -1,6 +1,7 @@
 import React from "react";
 import image from "../assets/image.png";
-import Features from "./Features";
+
+import Contactus from "./Contactus";
 
 function Description() {
   return (

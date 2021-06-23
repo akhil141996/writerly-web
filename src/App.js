@@ -12,6 +12,8 @@ import Plans from "./Components/Plans";
 import Footer2 from "./Components/Footer2";
 import Signupdetails from "./Components/Signupdetails";
 import Features from "./Components/Features";
+import Contactus from "./Components/Contactus";
+import { Fontawesome } from "@fortawesome/react-fontawesome";
 class App extends Component {
   render() {
     return (
@@ -19,9 +21,8 @@ class App extends Component {
         <Navbar />
 
         <Switch>
-          <Route path="/login" component={Signin} />
-          <Route path="/home" component={(Description, Features, Details)} />
-          <Route path="/Signupdetails" component={Signupdetails} />
+          <Route path="/home" component={Contactus} />
+
           <Route path="/plans" component={Plans} />
         </Switch>
 
