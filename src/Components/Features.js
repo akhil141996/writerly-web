@@ -14,7 +14,7 @@ function Features() {
     <div class=" w-100">
       <div class="container text-center py-5 ml-5 mr-5">
         <h1 class="font-weight-light">Features</h1>
-        <div class="d-flex flex-row-sm justify-content-between my-flex-container">
+        <div class="d-flex flex-row justify-content-between my-flex-container">
           <div class="p-2 my-flex-item">
             <img src={feature1}></img>
             <h5 class="py-2">Notes</h5>
@@ -79,7 +79,7 @@ function Features() {
         <div class="d-flex flex-row justify-content-between my-flex-container">
           <div class="p-2 my-flex-item">
             <img src={Feature5}></img>
-            <h5 class="py-2">Notes</h5>
+            <h5 class="py-2">Word Tracker</h5>
             <h6
               style={{
                 width: "202px",
@@ -94,7 +94,7 @@ function Features() {
           </div>
           <div class="p-2 my-flex-item">
             <img src={feature6}></img>
-            <h5 class="py-2">NoteBooks</h5>
+            <h5 class="py-2">Export Notes</h5>
             <h6
               style={{
                 width: "202px",
@@ -109,7 +109,7 @@ function Features() {
           </div>
           <div class="p-2 my-flex-item">
             <img src={feature7}></img>
-            <h5 class="py-2">Tags</h5>
+            <h5 class="py-2">Cloud Integration</h5>
             <h6
               style={{
                 width: "202px",

@@ -1,8 +1,6 @@
 import React from "react";
 import image from "../assets/image.png";
 
-import Contactus from "./Contactus";
-
 function Description() {
   return (
     <div class="container-fluid  text-left py-3 mx-4 text-justify">

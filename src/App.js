@@ -20,9 +20,6 @@ class App extends Component {
       <BrowserRouter>
         <Navbar />
         <Contactus />
-        <Switch>
-          <Route path="/plans" component={Plans} />
-        </Switch>
 
         <Footer2 />
       </BrowserRouter>
